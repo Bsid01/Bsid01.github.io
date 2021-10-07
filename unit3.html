@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Dynamic Gallery</title>
+  </head>
+  <body>
+  <header>
+  <button><a href="index.html">Home</a></button>
+  <h1>Dynamic Gallery</h1>
+  <h6>Resize the browser window to change the images</h6><hr/>
+  </header>
+
+  <main>
+<p>Games</p>
+<picture>
+ <source media="(min-width: 769px)" srcset="Unit3Images/Game4.jpg">
+ <source media="(min-width: 426px)" srcset="Unit3Images/Game3.jpg">
+ <source media="(min-width: 321px)" srcset="Unit3Images/Game2.jpg">
+<img src="Unit3Images/Game1.jpg" style="width:200px;height:200px;" alt="pic">
+</picture>
+<hr/>
+<p>Tech</p>
+<picture>
+ <source media="(min-width: 769px)" srcset="Unit3Images/Tech4.jpg">
+ <source media="(min-width: 426px)" srcset="Unit3Images/Tech3.jpg">
+ <source media="(min-width: 321px)" srcset="Unit3Images/Tech2.jpg">
+<img src="Tech1.jpg" style="width:200px;height:200px" alt="pic">
+<hr/>
+<p>Food</p>
+<picture>
+ <source media="(min-width: 769px)" srcset="Unit3Images/Food4.jpg">
+ <source media="(min-width: 426px)" srcset="Unit3Images/Food3.jpg">
+ <source media="(min-width: 321px)" srcset="Unit3Images/Food2.jpg">
+<img src="Unit3Images/Food1.jpg" style="width:200px;height:200px" alt="pic">
+  </main>
+
+  <footer>
+    <hr/>
+    &copy; 2021 Bryant Sidwell
+  </footer>
+
+  </body>
+</html>
