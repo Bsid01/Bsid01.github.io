@@ -1,0 +1,41 @@
+main {
+  background-color: rgb(60, 60, 60);
+  color: lightgrey
+
+}
+.bigImage {
+  height: 300px;
+}
+body {
+  background-image: url('unit6Images/m.gif');
+  background-repeat: repeat;
+  background-size:cover;
+}
+#wrapper {
+  width:60%;
+  margin:auto;
+  margin-top:30px;
+}
+ul {
+  list-style-image: url('unit6Images/loader.gif');
+}
+.specialBorder {
+  border: 10px solid black;
+  padding:2px;
+  border-image: url('unit6Images/border.png') 30% round;
+}
+#woah {
+  width:65px;
+  height:65px;
+}
+#d {
+  position: unset;
+  background-color:grey;
+  text-decoration:none;
+  color:white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#d:hover {
+  background-color:rgb(86, 86, 86);
+  color: pink;
+}
