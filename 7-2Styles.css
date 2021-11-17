@@ -68,3 +68,23 @@ Add your CSS to the ID selectors below
   top: 1700px;
   left: 1000px;
 }
+
+button.homeButton {
+  background-color:lightgrey;
+  border: 1px offset black;
+  color:red;
+  z-index:5;
+  position:absolute;
+  top:0;
+  left:50%;
+  right:50%;
+}
+a {
+  text-decoration: none;
+  color:white;
+}
+
+button:hover {
+  background-color: grey;
+  color:white;
+}
