@@ -1,0 +1,37 @@
+ @media print {
+  
+   div#nav, div#sidebar { 
+     display: none; 
+     
+  } 
+}
+
+@media print {
+
+  img {
+    display:none;
+  }
+
+}
+
+@media print {
+
+  body {
+    font-size: 1.25em;
+    margin: 15px, 10px, 10px, 10px;
+  }
+}
+
+@media print {
+
+  :not(a) {
+    background-color:white;
+    color:black;
+  }
+}
+
+@media print {
+
+  div#footer { display:none; }
+
+}
