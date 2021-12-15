@@ -1,0 +1,11 @@
+body {
+  background-color: beige;
+}
+#list {
+  display: inline-block;
+  border: outset 3px black;
+  padding: 5px;
+  width: 150px;
+  background-color:#e1e1e1;
+  margin: 0 57% 0 43%;
+}
