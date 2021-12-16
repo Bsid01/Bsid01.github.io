@@ -1,0 +1,41 @@
+table, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 16px;
+  text-align: center;
+}
+table {
+  width: 75%;
+  margin: auto;
+}
+h1 {
+  text-align:center;
+  color:maroon;
+}
+a:not(.Homeb, .home):visited {
+  color:mediumseagreen;
+}
+a:not(.Homeb, .home):hover {
+  color: purple;
+}
+.Homeb {
+  position:absolute;
+  text-decoration:none;
+  color:black;
+  background-color:pink;
+  border:solid 2px black;
+}
+.Homeb:hover {
+  color:white;
+}
+.home {
+  position:absolute;
+  margin-left:50px;
+  text-decoration:none;
+  color:black;
+  background-color:pink;
+  border:solid 2px black;
+}
+.home:hover {
+  color:white;
+}

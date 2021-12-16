@@ -1,0 +1,29 @@
+.bold {
+  font-weight:bold;
+}
+table, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 16px;
+}
+table {
+  width: 80%;
+  margin: auto;
+}
+.Homeb {
+  position:absolute;
+  text-decoration:none;
+  color:black;
+  background-color:pink;
+  border:solid 2px black;
+}
+a:not(.Homeb):visited {
+  color:mediumseagreen;
+}
+a:not(.Homeb):hover {
+  color:pink;
+}
+.Homeb:hover {
+  background-color:white;
+}

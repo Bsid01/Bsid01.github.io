@@ -1,0 +1,26 @@
+.bold {
+  font-weight:bold;
+}
+table, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 16px;
+  text-align: center;
+}
+table {
+  width: 75%;
+  margin: auto;
+}
+.Homeb {
+  position:absolute;
+  text-decoration:none;
+  color:black;
+  background-color:pink;
+  border:solid 2px black;
+}
+a:hover {
+  background-color:blueviolet;
+}
+.row1 {
+  background-color: #CCC;
+}
