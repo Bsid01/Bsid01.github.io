@@ -1,0 +1,14 @@
+h1 {
+  color:Red;
+}
+a {
+  color: #a1a1a1;
+  background-color: #e8e8e8;
+  text-decoration: none;
+  border: 2px outset #d6d6d6;
+  padding: 5px;
+}
+a:hover {
+  color:white;
+  background-color:black;
+}
