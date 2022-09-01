@@ -19,5 +19,5 @@ function printPyramid(height) {
       
   }
 }
-input = prompt("Enter a number to specify the height of the pyramid: ");
+input = prompt("Enter a number to specify the height of a pyramid: ");
 printPyramid(input);

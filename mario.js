@@ -15,5 +15,5 @@ function printPyramid(height) {
 }
 console.log(`Want to see a pretty pyramid? The top step is 2 bricks wide. You just have to specify how tall you want it to be!`);
 console.log();
-input = prompt("Enter a number to specify the height of the pyramid: ");
+input = prompt("Enter a number to specify the height of a pyramid: ");
 printPyramid(input);
